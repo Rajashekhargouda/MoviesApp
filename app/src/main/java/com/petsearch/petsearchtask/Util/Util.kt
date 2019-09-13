@@ -15,7 +15,7 @@ import android.support.v4.content.ContextCompat.getSystemService
 
 
 object Util {
-    const val API_KEY = "9b0730e6257ac0de0599155b5ae6152f"
+    const val API_KEY = "paste your key" // TOKEN KEY
 
     fun showSnackbar(view:View,message:String,duration:Int){
         Snackbar.make(view,message,duration).show()
